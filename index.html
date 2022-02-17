@@ -33,7 +33,7 @@
                     </div>
                     <!-- Calculation Section -->
                     <div class="col-xs-12 col-lg-6 px-5">
-                        <h4 class="text-center text-success">Income</h4>
+                        <h4 class="text-center text-success mt-3">Income</h4>
                         <div class="input-group mb-3 ">
                             <span class="input-group-text" id="inputGroup-sizing-default">Income : </span>
                             <input id="income-input"type="text" class="form-control border-3 " aria-label="Sizing example input"
@@ -57,22 +57,25 @@
                         </div>
                         <!-- Calculate Button -->
                         <div class="text-center">
-
                            <button id="calculate-button" type="button" class="btn btn-primary btn-sm px-4 py-1">Calculate</button>
                         </div>
-                        
-                        <h3 class="text-center mt-3">Total Expenses : <span id="expenses-total">00</span></h3>
-                        <h3 class="text-center">Balance : <span id = "balance-total">00</span></h3>
+                       <!-- Total expenses title -->
+                        <h3 class="text-center mt-3 text-danger">Total Expenses : <span id="expenses-total">00</span></h3>
+                        <!-- Balance title -->
+                        <h3 class="text-center text-success">Balance : <span id = "balance-total">00</span></h3>
                         <h4 class="text-center text-info mt-3">Save : 20%</h4>
                                     <!-- Save Button -->
                                     <div class="text-center">
                                         <button id="save-button" type="button" class="btn btn-primary btn-sm px-4 py-1">Save</button>
                                     </div>
-                        <h3 class="text-center mt-3">Saving Amount : <span id="total-saving">00</span></h3>
-                        <h3 class="text-center">Remaining Balance : <span id="remaining-balance">00</span></h3>
+                        <!-- Saving amount title -->
+                        <h3 class="text-center mt-3 text-info">Saving Amount : <span id="total-saving">00</span></h3>
+                        <!-- Remaining Balance title -->
+                        <h3 class="text-center text-success">Remaining Balance : <span id="remaining-balance">00</span></h3>
                     </div>
                 </div>
             </div>
+            <!-- Error checking -->
             <div class="notify-section">
                 <p id="notify-fail" class="notify text-center mt-3 d-none">❌ Please enter numbers.</p>
                 <p id="notify-success" class="notify text-center mt-3 d-none">✅ You are good to go.</p>
