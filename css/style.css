@@ -1,0 +1,10 @@
+/* Html body */
+body{
+    background-color: beige;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header title */
+#header-title{
+    color: darkmagenta;
+}
